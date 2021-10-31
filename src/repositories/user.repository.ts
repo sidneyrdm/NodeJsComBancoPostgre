@@ -1,6 +1,6 @@
-import { User } from "../../dio-node-user-authentication-api/final-result/src/models/user.model";
 import db from "../db";
 import DataBaseError from "../models/errors/database.error.model";
+import User from "../models/user.model";
 
 class UserRepository{
 
